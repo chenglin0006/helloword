@@ -6,8 +6,6 @@ Vue.use(VueRainbow);
 
 import AppCarBookSuccess from './AppCarBookSuccess.vue'
 import AppNormalHeader from './AppNormalHeader.vue'
-// import appCommonAd from '@gfe/app-common-ad'
-// import appCommonCoupon from '@gfe/app-common-coupon'
 
 new Vue({
   el: 'body',
@@ -16,7 +14,5 @@ new Vue({
   components: {
   	AppCarBookSuccess,
   	AppNormalHeader
-    // 'app-common-coupon':appCommonCoupon,
-    // 'app-common-nav':appCommonNav
   }
 })

@@ -220,23 +220,18 @@
         data(){
             return{
                 showCallTel:false,
-                consultTelephone:'021-52291601'
+                consultTelephone:'13333333333'
             }
         },
         props:[],
         components:{
         },
         ready() {
-              
         },
         methods:{
           contactAction:function(){
-              _hip.push(['mv', {module: 'app_dp_onestop_car_400', action: 'click'}]);
-              this.showCallTel = true;
           },
           backToListAction: function(){
-              _hip.push(['mv', {module: 'app_dp_onestop_car_list', action: 'click'}]);
-              location.href = "dianping://shoplist?categoryid=165";
           }
         }
             
